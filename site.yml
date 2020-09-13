@@ -1,7 +1,8 @@
+---
 - name: ローカル開発環境
   hosts: localhost
   become: no
   connection: local
   roles:
     - role: echo
-    
+
